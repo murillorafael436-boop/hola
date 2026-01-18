@@ -6,8 +6,8 @@ import socket
 import sys
 
 # ---- CONFIGURACIÓN ----
-DISCORD_TOKEN = "MTQ2MjI2OTEzOTQ2MzgzNTg0Nw.GxHBXk.-5Q9CEalPGhJTNsfOubBL0TzY9rd1qcOpxUuHg"
-OPENAI_API_KEY = "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"
+DISCORD_TOKEN = "DISCORD_TOKEN"
+OPENAI_API_KEY = "OPENAI_API_KEY"
 openai.api_key = OPENAI_API_KEY
 
 intents = discord.Intents.default()
@@ -104,3 +104,4 @@ try:
     client.run(DISCORD_TOKEN)
 except Exception as e:
     print(f"❌ Error al iniciar el bot: {e}")
+
